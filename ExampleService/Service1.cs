@@ -16,6 +16,7 @@ namespace ExampleService
 
         protected override void OnStart(string[] args)
         {
+            // for debugging purposes...ugh, shoudl ahv eused TopShelf ;-)
             Thread.Sleep(20000);
 
             GlobalConfiguration.Configuration.UseMemoryStorage();
